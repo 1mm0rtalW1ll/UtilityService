@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c87c0cbdfdde41c09ff024d3474e1682" Name="Diagram1" ZoomLevel="63">
+        <EntityTypeShape EntityType="UtilityServiceDBModel.Buildings" Width="1.5" PointX="0.625" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtilityServiceDBModel.Requests" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtilityServiceDBModel.Residents" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtilityServiceDBModel.Roles" Width="1.5" PointX="10.5" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtilityServiceDBModel.Statuses" Width="1.5" PointX="3.25" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtilityServiceDBModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UtilityServiceDBModel.Users" Width="1.5" PointX="7.875" PointY="4.75" IsExpanded="true" />
+        <AssociationConnector Association="UtilityServiceDBModel.FK__Requests__Buildi__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="UtilityServiceDBModel.FK__Residents__Build__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="UtilityServiceDBModel.FK__Requests__Execut__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="UtilityServiceDBModel.FK__Requests__Reside__32E0915F" ManuallyRouted="false" />
+        <AssociationConnector Association="UtilityServiceDBModel.FK__Requests__Status__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="UtilityServiceDBModel.FK__Users__RoleID__276EDEB3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

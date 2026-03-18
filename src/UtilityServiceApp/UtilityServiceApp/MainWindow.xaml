@@ -1,0 +1,10 @@
+﻿<Window x:Class="UtilityServiceApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Подсистема управления заявками" 
+        Height="600" Width="1000" 
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Frame Name="MainFrame" NavigationUIVisibility="Hidden"  Navigated="MainFrame_Navigated"/>
+    </Grid>
+</Window>
